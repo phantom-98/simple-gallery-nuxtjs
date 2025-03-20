@@ -29,7 +29,6 @@ async function fetchImageList () {
 }
 
 function showModal (pathname) {
-  console.log("pathname", pathname)
   modal.value = '/api/images/' + pathname
   ismodal.value = true;
 }
