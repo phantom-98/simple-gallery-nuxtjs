@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@cf-wasm/photon": "^0.1.29",
     "@nuxt/content": "^3.3.0",
     "@nuxt/eslint": "^1.2.0",
     "@nuxt/fonts": "^0.11.0",
@@ -20,11 +21,13 @@
     "@nuxt/ui": "^3.0.0",
     "@nuxthub/core": "^0.8.18",
     "@unhead/vue": "^2.0.0-rc.8",
+    "axios": "^1.8.4",
     "eslint": "^9.22.0",
     "nuxt": "^3.16.1",
     "typescript": "^5.8.2",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "wrangler": "^4.2.0"
